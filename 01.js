@@ -17,9 +17,9 @@ function fibonacciVerifier (input){
         newValue = value1 + value2;
     }
     if (list.includes(input)){
-         console.log('o imput não faz parte da Sequência de Fibonacci');
+         console.log('o imput faz parte da Sequência de Fibonacci');
     } else {
-        console.log('o imput faz parte da Sequência de Fibonacci');
+        console.log('o imput não faz parte da Sequência de Fibonacci');
     }
 }
 
